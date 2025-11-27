@@ -1,0 +1,11 @@
+{
+  "api": {
+    "model": "qwen-mt-plus"
+  },
+  "translation": {
+    "source_lang": "English",
+    "target_lang": "Chinese",
+    "domains": "Technical documentation and project README files."
+  },
+  "terminology": {  }
+}

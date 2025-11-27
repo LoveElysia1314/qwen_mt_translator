@@ -1,0 +1,16 @@
+{
+  "model": "qwen-mt-plus",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好世界"
+    }
+  ],
+  "extra_body": {
+    "translation_options": {
+      "source_lang": "zh",
+      "target_lang": "en"
+    }
+  },
+  "stream": false
+}

@@ -1,0 +1,38 @@
+{
+  "api": {
+    "model": "qwen-mt-plus"
+  },
+  "translation": {
+    "source_lang": "Chinese",
+    "target_lang": "English",
+    "domains": "This text is an excerpt from a Japanese light novel (Ranobe). When translating or processing this text, strictly preserve the original paragraph structure, line breaks, and empty lines exactly as they appear in the source. Do not merge paragraphs, do not split paragraphs, and do not remove or add blank lines. The narrative style, pacing, and formatting are part of the original light-novel presentation and must remain unchanged in the output."
+  },
+  "terminology": {
+    "terms": [
+      { "source": "久世政近", "target": "Masachika Kuse"},
+      { "source": "周防政近", "target": "Masachika Suoh"},
+      { "source": "艾莉莎·米哈伊罗夫纳·九条", "target": "Alisa Mikhailovna Kujo"},
+      { "source": "艾莉", "target": "Alya"},
+      { "source": "周防有希", "target": "Yuki Suoh"},
+      { "source": "玛利亚·米哈伊罗夫纳·九条", "target": "Maria Mikhailovna Kujo"},
+      { "source": "君岛绫乃", "target": "Ayano Kimijima"},
+      { "source": "谷山沙也加", "target": "Sayaka Taniyama"},
+      { "source": "丸山毅", "target": "Tsuyoshi Maruyama"},
+      { "source": "清宫光瑠", "target": "Koharu Kiyomine"},
+      { "source": "名良桥依礼奈", "target": "Erina Narahashi"},
+      { "source": "宫前乃乃亚", "target": "Nonoha Miyamae"},
+      { "source": "桐生院堇", "target": "Sumire Kiryuin"},
+      { "source": "四季姊妹", "target": "Seasonal Sisters"},
+      { "source": "菖蒲", "target": "Ayame"},
+      { "source": "桔梗", "target": "Kikyo"},
+      { "source": "柊", "target": "Hiiragi"},
+      { "source": "九条家", "target": "Kujo Family"},
+      { "source": "周防家", "target": "Suoh Family"},
+      { "source": "久世家", "target": "Kuse Family"},
+      { "source": "桐生院集团", "target": "Kiryuin Group"},
+      { "source": "学生会", "target": "Student Council"},
+      { "source": "征岭学院", "target": "Seirei Academy"},
+      { "source": "学生会会长选举", "target": "Student Council Presidential Election"}
+    ]
+  }
+}

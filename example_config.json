@@ -1,0 +1,22 @@
+{
+  "api": {
+    "model": "qwen-mt-plus"
+  },
+  "translation": {
+    "source_lang": "Chinese",
+    "target_lang": "English",
+    "domains": "general"
+  },
+  "terminology": {
+    "terms": [
+      {"source": "翻译", "target": "translation"},
+      {"source": "工具", "target": "tool"},
+      {"source": "配置", "target": "configuration"}
+    ]
+  },
+  "tm_list": [
+    {"source": "你好，欢迎使用本翻译工具。", "target": "Hello, welcome to this translation tool."},
+    {"source": "请按照示例格式在配置中添加术语映射以保证一致性。", "target": "Please add terminology mappings in the configuration according to the sample format to ensure consistency."},
+    {"source": "如需更多帮助，请查阅项目的 README 文档。", "target": "If you need further assistance, please refer to the project's README documentation."}
+  ]
+}

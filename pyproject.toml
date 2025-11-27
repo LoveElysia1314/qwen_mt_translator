@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=61.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "qwen-mt-translator"
+version = "0.5"
+description = "A Python library for text translation using Qwen MT API"
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.8"
+authors = [
+    {name = "LoveElysia1314", email = "de.zqr@outlook.com"},
+]
+maintainers = [
+    {name = "LoveElysia1314", email = "de.zqr@outlook.com"},
+]
+keywords = ["translation", "qwen", "mt", "api", "nlp"]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Text Processing :: Linguistic",
+]
+dependencies = [
+    "openai>=1.0.0",
+    "tiktoken>=0.5.0",
+]
+
+[project.urls]
+Homepage = "https://github.com/LoveElysia1314/qwen-mt-translator"
+Repository = "https://github.com/LoveElysia1314/qwen-mt-translator"
+Issues = "https://github.com/LoveElysia1314/qwen-mt-translator/issues"
+
+[project.scripts]
+qwen-translate = "qwen_mt_translator.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["qwen_mt_translator"]
